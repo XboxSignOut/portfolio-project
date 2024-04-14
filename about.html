@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Vaibhavi Gaonkar is a third year BE student in Goa College of  Engineering."
+    />
+    <title>About Vaibhavi - Vaibhavi Bhikaji Gaonkar</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,6 +38,36 @@
     ></script>
   </head>
   <body>
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img
+          src="images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Vaibhavi Logo"
+          title="Homepage"
+        />
+        <img
+          src="images/logo-small.png"
+          class="logo d-block d-md-none"
+          alt="Vaibhavi Logo"
+          title="Homepage"
+        />
+      </a>
+      <ul>
+        <li>
+          <a href="/" title="Homepage"> Home</a>
+        </li>
+        <li class="active">
+          <a href="/about.html" title="About Vaibhavi"> About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Vaibhavi's Work"> Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Vaibhavi's Contact"> Contact</a>
+        </li>
+      </ul>
+    </nav>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -47,7 +81,9 @@
                 exercises, and everything is well explained, homework and
                 deadlines are good for keep focus
               </p>
-              <a href="#" class="btn btn-branding">See my projects here</a>
+              <a href="/work.html" class="btn btn-branding"
+                >See my projects here</a
+              >
             </div>
           </div>
         </div>
@@ -56,5 +92,57 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Vaibhavi"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="/work.html" class="email-link" title="Email Vaibhavi">
+          >vaibhavigaonkar760@gmail.com
+          <!-- <span
+              class="__cf_email__"
+              data-cfemail="d6a6b7a2a4bfb5bfb796b1bbb7bfbaf8b5b9bb"
+              >vaibhavigaonkar760@gmail.com</span
+            > -->
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/XboxSignOut"
+          target="_blank"
+          title="Github profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/chico_.76/" target="_blank">
+          <i class="fab fa-instagram" title="Instagram profile"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/vaibhavi-gaonkar-4660522a6/"
+          target="_blank"
+          title="LinkedIn profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center" mt-5>
+        ✌️This project was coded by Vaibhavi Gaonkar, and is
+        <a href="https://github.com/XboxSignOut/portfolio-project"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
