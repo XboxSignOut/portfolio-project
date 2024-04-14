@@ -180,6 +180,13 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.my-img {
+  height: 690px;
+  width: 450px;
+  margin-left: 100px;
+  margin-top: -70px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
