@@ -181,10 +181,9 @@ footer .social-links a:hover {
 }
 
 .my-img {
-  height: 690px;
+  height: 600px;
   width: 450px;
   margin-left: 100px;
-  margin-top: -70px;
 }
 
 @media (max-width: 900px) {
